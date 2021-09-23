@@ -68,6 +68,13 @@ body {
   padding: 0 1em;
 }
 
+/* Language */
+em:lang(zh) {
+  text-emphasis: circle;
+  text-emphasis-position: over right;
+}
+
+
 /* Headings */
 
 h1 {
