@@ -1,1 +1,7 @@
 edition 版
+commit snapshot 提交快照
+commit 提交? 快照? Commit?
+living standard 活標準
+review draft 審核稿
+specification 規格
+standard 標準
