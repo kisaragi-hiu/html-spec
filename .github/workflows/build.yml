@@ -19,9 +19,11 @@ jobs:
         make output.zip
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/kisaragi' }}
+      env:
+        NETLIFY_ACCESS_TOKEN: ${{ secrets.NETLIFY_ACCESS_TOKEN }}
       run: |
         curl \
         -H "Content-Type: application/zip" \
-        -H "Authorization: Bearer ${{ secrets.NETLIFY_ACCESS_TOKEN }}" \
+        -H "Authorization: Bearer $NETLIFY_ACCESS_TOKEN" \
         --data-binary "@output.zip" \
         https://api.netlify.com/api/v1/sites/2e5edfc4-89a3-4851-90fa-f9d4f476a2e2/deploys
