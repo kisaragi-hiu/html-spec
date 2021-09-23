@@ -1,0 +1,21 @@
+#+title: Building
+
+You can build the HTML with this command:
+
+#+begin_src bash
+docker run --mount "type=bind,source=$(pwd),destination=/whatwg/html,readonly=1" \
+       --env "HTML_SOURCE=/whatwg/html" \
+       --mount "type=bind,source=$(pwd)/output,destination=/whatwg/output" \
+       --env "HTML_OUTPUT=/whatwg/output" \
+       whatwg/html-build
+#+end_src
+
+Or use the Makefile:
+
+#+begin_src bash
+make build
+#+end_src
+
+Be sure to fetch at least 2 commits: the build will fail if the shallow clone only contains the latest commit.
+
+See [[https://github.com/whatwg/html/blob/main/.github/workflows/build.yml][the official GitHub Actions build file]] for details. Note that the repository is cloned to =$GITHUB_WORKSPACE/source=, meaning the [[file:source][main file]] is =$GITHUB_WORKSPACE/source/source=.
