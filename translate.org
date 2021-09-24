@@ -12,3 +12,11 @@
 - attribute :: 屬性
 - metadata :: 中繼資料
 - document :: 文件
+- the web platform :: Web 平台
+- web technologies :: Web 科技
+- web developer :: 網頁開發者
+- markup language :: 標記語言
+  - [[https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/HTML_basics][MDN]]、[[https://ithelp.ithome.com.tw/articles/10270615][ithome]]
+- content attributes :: 內容屬性
+- The /element/ element represents … :: /element/ 元素代表 …
+  - When you change this you have to change the build tool, line 66 in .pre-process-main.pl
