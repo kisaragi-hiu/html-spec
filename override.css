@@ -1,0 +1,3 @@
+.example::before {
+  content: "例子";
+}
