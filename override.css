@@ -1,3 +1,11 @@
 .example::before {
   content: "例子";
 }
+
+.warning::before {
+  content: "\26A0 警告！";
+}
+
+.note::before {
+  content: "注意";
+}
