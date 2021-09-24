@@ -26,3 +26,4 @@
 - author :: 著者
   - 「作者」 looks too similar to 「實作者」 otherwise. It could even cause 「實作者」 to be interpreted as “the real author” (實 + 作者), which is wrong here. I don't know of a better way to describe “implementer”.
 - speech synthesis tools :: 語音合成工具, 文字轉語音工具, 螢幕閱讀器, 閱讀器
+- characteristic :: 特性

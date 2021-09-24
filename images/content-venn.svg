@@ -111,7 +111,7 @@
      <li><span>autonomous custom elements</span></li>
      <li><span>Text*</span></li>
     </ul>
-    <p>* Under certain circumstances (see prose).</p>
+    <p>* 只在某些情況下 (見本文)。</p>
    </div>
   </foreignObject>
   <text x="10" y="-94">Flow</text>
@@ -189,7 +189,7 @@
      <li><code>textarea</code></li>
      <li><code>video</code>*</li>
     </ul>
-    <p>* Under certain circumstances.</p>
+    <p>* 只在某些情況下。</p>
    </div>
   </foreignObject>
   <text x="-36" y="5">Interactive</text>
@@ -261,7 +261,7 @@
      <li><span>autonomous custom elements</span></li>
      <li><span title="text content">Text</span>*</li>
     </ul>
-    <p>* Under certain circumstances; see prose.</p>
+    <p>* 只在某些情況下；見本文。</p>
    </div>
   </foreignObject>
   <text x="0" y="-39.5">Phrasing</text>
