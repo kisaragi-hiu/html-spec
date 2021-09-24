@@ -20,3 +20,9 @@
 - content attributes :: 內容屬性
 - The /element/ element represents … :: /element/ 元素代表 …
   - When you change this you have to change the build tool, line 66 in .pre-process-main.pl
+- accessibility :: 無障礙
+- accessibility considerations :: 無障礙考量
+- implementer :: 實作者
+- author :: 著者
+  - 「作者」 looks too similar to 「實作者」 otherwise. It could even cause 「實作者」 to be interpreted as “the real author” (實 + 作者), which is wrong here. I don't know of a better way to describe “implementer”.
+- speech synthesis tools :: 語音合成工具, 文字轉語音工具, 螢幕閱讀器, 閱讀器
