@@ -1,7 +1,14 @@
-edition 版
-commit snapshot 提交快照
-commit 提交? 快照? Commit?
-living standard 活標準
-review draft 審核稿
-specification 規格
-standard 標準
+- edition :: 版
+- commit snapshot :: 提交快照
+- commit :: 提交, 歷史提交, commit
+- living standard :: 活標準
+- review draft :: 審核稿
+- specification :: 規格
+- standard :: 標準
+- issue :: 議題, issue (傾向「議題」)
+- open an issue :: 建立一份 issue, 建立一個議題
+- an open issue :: 一個未解決的議題
+- HTML element :: HTML 元素
+- attribute :: 屬性
+- metadata :: 中繼資料
+- document :: 文件
